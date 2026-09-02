@@ -1,0 +1,35 @@
+
+
+/* 4 */
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* 5 */
+p::first-letter {
+    text-transform: uppercase;
+}
+
+/* 6 */
+a:hover {
+    text-decoration: none;
+}
+
+/* ct 3 4 5 */
+#primary-list {
+    list-style: none;
+    text-align: center;
+}
+
+/* 7 */
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}   
+
+/* ct 4 */
+img {
+        display: block;
+        margin: auto;
+        max-width: 150px;
+}
