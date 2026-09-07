@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos de Imagens com Legenda (Figure)</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <a href="./home.html">← Voltar para Home</a>
+    <h1>Imagens com Legenda (&lt;figure&gt; e &lt;figcaption&gt;)</h1>
+  </header>
+
+  <hr>
+
+  <!-- 1. EXEMPLO DA APRESENTAÇÃO (THE OFFICE) -->
+  <section>
+    <h2>1. Exemplo do Slide</h2>
+    <p>Uso semântico de <code>&lt;figure&gt;</code> para encapsular a imagem e <code>&lt;figcaption&gt;</code> como legenda:</p>
+
+    <figure>
+      <!-- Se não tiver a foto salva localmente ainda, pode usar um placeholder ou uma foto local -->
+      <img src="./images/michael.jpg" alt="Michael Scott">
+      <figcaption>Michael Scott, Gerente Regional</figcaption>
+    </figure>
+  </section>
+
+  <hr>
+
+  <!-- 2. LEGENDA NO TOPO -->
+  <section>
+    <h2>2. Legenda Acima da Imagem</h2>
+    <p>A tag <code>&lt;figcaption&gt;</code> também pode vir antes da imagem dentro do <code>&lt;figure&gt;</code>:</p>
+
+    <figure>
+      <figcaption>Figura 1: Prédio da Dunder Mifflin Paper Company em Scranton.</figcaption>
+      <img src="./images/dunder_miffin.jpg" alt="Dunder Mifflin">
+    </figure>
+  </section>
+
+</body>
+</html>

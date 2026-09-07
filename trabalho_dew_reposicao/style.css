@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    /* Fundo escuro estilo editor */
+    color: #d4d4d4;
+    /* Texto claro */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho e Links */
+header {
+    margin-bottom: 24px;
+}
+
+a {
+    color: #ff6b4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 12px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 20px 0 10px;
+    color: #ff6b4a;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 14px 0 8px;
+    color: #a78bfa;
+}
+
+/* Separador */
+hr {
+    border: 0;
+    border-top: 1px solid #333333;
+    margin: 24px 0;
+}
+
+/* Listas */
+ul,
+ol {
+    padding-left: 28px;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+dl {
+    background-color: #252526;
+    border-left: 4px solid #ff6b4a;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+dt {
+    font-weight: bold;
+    color: #4ade80;
+    /* tags verdes */
+    margin-top: 8px;
+}
+
+dt:first-child {
+    margin-top: 0;
+}
+
+dd {
+    margin-left: 16px;
+    color: #cccccc;
+}
+
+/* Imagens e Figuras */
+figure {
+    margin: 16px 0;
+    display: inline-block;
+    background-color: #252526;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #333333;
+}
+
+figure img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #9cdcfe;
+    /* legenda dos figures */
+    margin-top: 8px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Destaque para o código `<code>` */
+code {
+    background-color: #2d2d2d;
+    color: #ff6b4a;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.95em;
+}
