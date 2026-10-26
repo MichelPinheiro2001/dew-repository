@@ -140,6 +140,8 @@ a:hover {
 /* botao voltar a pagina principal */
 
 .btn-voltar {
+    position: absolute;
+    left: 20px;
     display: inline-block;
     padding: 8px 16px;
     background-color: #5801ca;
@@ -149,7 +151,7 @@ a:hover {
     font-size: 14px;
     font-weight: 600;
     border-radius: 8px;
-    margin: 16px 0;
+    margin: 0;
     transition: background-color 0.2s ease;
 }
 
@@ -168,18 +170,26 @@ table {
     position: sticky;
     top: 0;
     z-index: 3;
-    padding: 10px;
+    padding: 10px 24px;
     background-color: darkkhaki;
+    box-sizing: border-box;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header .nav {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .header .nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0 5px;
 }
 
 .header .nav a {
