@@ -166,6 +166,16 @@ table {
 }
 
 /* all 3 */
+a {
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
 .header {
     position: sticky;
     top: 0;
@@ -205,6 +215,21 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h2,
+.products-list figcaption {
+    z-index: 2;
+    position: relative;
+}
+
 /* all 5 */
 main {
     padding: 20px;
@@ -235,4 +260,22 @@ main {
     width: 100%;
     height: 150px;
     object-fit: contain;
+}
+
+#product-title {
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(20deg);
+    }
+
+    50% {
+        transform: rotateY(20deg);
+    }
+
+    100% {
+        transform: rotateX(20deg);
+    }
 }
